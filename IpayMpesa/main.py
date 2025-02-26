@@ -16,9 +16,9 @@ oid = '1234'
 
 def lipana_mpesa(user_id, phone, amount, oid, type):
     # ipay = config['ipay']
-    vid = "bulkbox"
-    secret_key = "&X*H$&3xPq!uK$#PXSG9QHznBs6XGUSv"
-
+    vid = "buox"
+    secret_key = "&X*Sv" 
+                
     if not secret_key or not vid:
         raise ValueError("Secret key or vendor ID not set")
 
